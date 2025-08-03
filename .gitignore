@@ -1,0 +1,50 @@
+# macOS metadata
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcworkspace
+xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# SwiftPM
+.swiftpm/
+
+# User-specific
+*.swp
+*.swo
+*.env
+*.local
+
+# Logs
+*.log
+
+# Others (optional)
+*.orig
+*.mode1v3
+*.mode2v3
+*.pbxuser
+
+# Temporary files
+*.tmp
+*.bak
